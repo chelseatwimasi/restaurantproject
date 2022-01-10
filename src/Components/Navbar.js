@@ -4,9 +4,7 @@ import "./css/navbar.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="/">
-        Recommended Top 10 Restaurants In NYC Based Off of Food
-      </a>
+      <a className="navbar-brand" href="/"></a>
       <button
         className="navbar-toggler"
         type="button"

@@ -12,9 +12,19 @@ function CardList(props) {
           clicks={props.clicks.card1Clicks}
           clickHandler={props.click1Handler}
         />
-        <Card image={props.images[1]} />
+        <Card
+          image={props.images[1]}
+          clicks={props.clicks.card1Clicks}
+          clickHandler={props.click1Handler}
+        />
         <Card image={props.images[2]} />
         <Card image={props.images[3]} />
+        <Card image={props.images[4]} />
+        <Card image={props.images[5]} />
+        <Card image={props.images[6]} />
+        <Card image={props.images[7]} />
+        <Card image={props.images[8]} />
+        <Card image={props.images[9]} />
 
         {/* Level 2 */}
         {/* {props.images.map((image) => {
