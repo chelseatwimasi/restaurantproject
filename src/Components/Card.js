@@ -6,7 +6,9 @@ function Card(props) {
     <div>
       <div class="card 1" onClick={() => props.clickHandler()}>
         <div class="card_image">
-          <img src={props.image} />
+          <a href="https://www.google.com/">
+            <img src={props.image} />
+          </a>
         </div>
         <div class="card_title title-white">
           <p>Card Title</p>

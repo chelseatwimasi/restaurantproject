@@ -17,7 +17,9 @@ function CardList(props) {
           clicks={props.clicks.card1Clicks}
           clickHandler={props.click1Handler}
         />
-        <Card image={props.images[2]} />
+        <a href="https://www.google.com/">
+          <Card image={props.images[2]} />
+        </a>
         <Card image={props.images[3]} />
         <Card image={props.images[4]} />
         <Card image={props.images[5]} />

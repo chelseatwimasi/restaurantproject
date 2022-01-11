@@ -36,7 +36,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <h1>Chelsea and Dijah's Food Blog</h1>
+        <h1>Chelly's and Dijah's Food Blog</h1>
         <h3>Recommended Top 10 Restaurants In NYC Based Off of Food</h3>
         <CardList
           images={data}
