@@ -31,7 +31,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/">
-              Pet
+              Food
             </a>
           </li>
         </ul>
@@ -39,13 +39,13 @@ function Navbar() {
           <input
             className="form-control mr-sm-2"
             type="search"
-            placeholder="Find friends..."
+            placeholder="Find restaurants..."
           />
           <button
             className="btn btn-outline-secondary my-2 my-sm-0"
             type="submit"
           >
-            Sniff
+            Enter
           </button>
         </form>
       </div>

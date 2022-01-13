@@ -7,26 +7,76 @@ function CardList(props) {
     <div>
       <div className="cards-list">
         {/* level 1 */}
-        <Card
-          image={props.images[0]}
-          clicks={props.clicks.card1Clicks}
-          clickHandler={props.click1Handler}
-        />
-        <Card
-          image={props.images[1]}
-          clicks={props.clicks.card1Clicks}
-          clickHandler={props.click1Handler}
-        />
-        <a href="https://www.google.com/">
-          <Card image={props.images[2]} />
+        <a href="https://recipes.howstuffworks.com/menus/who-invented-macaroni-and-cheese.htm">
+          <Card
+            image={props.images[0]}
+            clicks={props.clicks.card1Clicks}
+            clickHandler={props.click1Handler}
+          />
         </a>
-        <Card image={props.images[3]} />
-        <Card image={props.images[4]} />
-        <Card image={props.images[5]} />
-        <Card image={props.images[6]} />
-        <Card image={props.images[7]} />
-        <Card image={props.images[8]} />
-        <Card image={props.images[9]} />
+        <a href="https://www.history.com/news/a-slice-of-history-pizza-through-the-ages">
+          <Card
+            image={props.images[1]}
+            clicks={props.clicks.card1Clicks}
+            clickHandler={props.click1Handler}
+          />
+        </a>
+        <a href="https://historydaily.org/the-accidental-invention-of-chicken-wings-americas-favorite-bar-food">
+          <Card
+            image={props.images[2]}
+            clicks={props.clicks.card1Clicks}
+            clickHandler={props.click1Handler}
+          />
+        </a>
+        <a href="https://www.google.com/">
+          <Card
+            image={props.images[3]}
+            clicks={props.clicks.card1Clicks}
+            clickHandler={props.click1Handler}
+          />
+        </a>
+        <a href="https://www.google.com/">
+          <Card
+            image={props.images[4]}
+            clicks={props.clicks.card1Clicks}
+            clickHandler={props.click1Handler}
+          />
+        </a>
+        <a href="https://www.google.com/">
+          <Card
+            image={props.images[5]}
+            clicks={props.clicks.card1Clicks}
+            clickHandler={props.click1Handler}
+          />
+        </a>
+        <a href="https://www.google.com/">
+          <Card
+            image={props.images[6]}
+            clicks={props.clicks.card1Clicks}
+            clickHandler={props.click1Handler}
+          />
+        </a>
+        <a href="https://www.google.com/">
+          <Card
+            image={props.images[7]}
+            clicks={props.clicks.card1Clicks}
+            clickHandler={props.click1Handler}
+          />
+        </a>
+        <a href="https://www.google.com/">
+          <Card
+            image={props.images[8]}
+            clicks={props.clicks.card1Clicks}
+            clickHandler={props.click1Handler}
+          />
+        </a>
+        <a href="https://www.google.com/">
+          <Card
+            image={props.images[9]}
+            clicks={props.clicks.card1Clicks}
+            clickHandler={props.click1Handler}
+          />
+        </a>
 
         {/* Level 2 */}
         {/* {props.images.map((image) => {
